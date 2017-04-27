@@ -23,7 +23,7 @@ namespace TravisSample.Test
         [TestCase(3,2,5)]
         [TestCase(1,7,8)]
         [TestCase(0,6,6)]
-        [TestCase(0,6,5)]
+        [TestCase(0,5,5)]
         public void TestAdd(int a, int b, int sum)
         {
             Assert.AreEqual(sum, _cal.Add(a, b));
